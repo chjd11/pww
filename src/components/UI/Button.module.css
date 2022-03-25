@@ -1,0 +1,22 @@
+.button {
+    background: #0074C1;
+    border: none;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    font-size: .875rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background 300ms;
+}
+
+.white-border {
+    border: 2px solid #FFF;
+}
+
+.has-text svg {
+    margin-left: .5em;
+}
+
+.button:hover {
+    background: #3068AD;
+}

@@ -1,0 +1,33 @@
+.event-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2.5rem;
+}
+
+.event-date {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 80%;
+    font-weight: 600;
+    background: #8C6910;
+    color: #FFF;
+    padding: .1rem .9rem .9rem;
+    margin-right: 1.25rem;
+}
+
+.event-content {
+    margin-top: -2px;
+}
+
+.event-title:not(:first-child) {
+    margin-top: .3rem;
+}
+
+.event-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.event-date span {
+    font-size: 1rem;
+}

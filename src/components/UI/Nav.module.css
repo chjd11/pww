@@ -1,0 +1,35 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.nav li { 
+    padding: .4rem 0;
+}
+
+.extra-padding li {
+    padding: .7rem 0;
+}
+
+.less-padding li {
+    padding: .2rem 0;
+}
+
+.border li {
+    border-top: 1px solid #E1E5EA;
+}
+
+.border li:first-child {
+    border-top: none;
+}
+
+.nav.inline li {
+    display: inline;
+    margin-right: 2em;
+    padding: 0;
+}

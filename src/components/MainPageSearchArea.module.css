@@ -1,0 +1,59 @@
+#main-page-search-area {
+    background: url('../assets/shutterstock_42474535.jpg') no-repeat;
+    background-size: cover;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+    padding: 3.75rem 0 5.5rem 0;
+    text-align: center;
+}
+
+#main-heading {
+    color: #FFF;
+    font: 400 1.25rem "Roboto Slab", serif;
+    margin: 1rem 0 2.75rem;
+}
+
+#search-frm {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+#search-frm button {
+    align-self: center;
+    margin-top: 1rem;
+}
+
+@media (min-width: 481px) {
+    #search-frm {
+        flex-direction: row;
+    }
+    #search-frm input {
+        flex-grow: 2;
+        margin-right: .75rem;
+    }
+    #search-frm button {
+        margin-top: 0;
+    }    
+}
+
+@media (min-width: 769px) {
+    #container {
+        width: 75%;
+    }
+    #main-heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    #container {
+        width: 55%;
+    }
+    #main-heading {
+        font-size: 1.75rem;
+    }
+}

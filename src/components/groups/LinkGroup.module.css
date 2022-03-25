@@ -1,0 +1,25 @@
+.link-group {
+    margin: 3rem 0 4rem;
+}
+
+.link-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    margin-top: 2.25rem;
+}
+
+@media (min-width: 481px) {
+    .link-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 769px) {
+    .link-group {
+        margin-bottom: 5.5rem;
+    }
+    .link-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

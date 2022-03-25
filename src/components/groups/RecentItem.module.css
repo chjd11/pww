@@ -1,0 +1,15 @@
+.recent-item {
+    margin-bottom: 1.5rem;
+}
+
+.recent-item-text {
+    margin: 1rem 0 .7rem;
+}
+
+.footnote {
+    font-size: .8rem;
+}
+
+.footnote span {
+    font-weight: 600;
+}

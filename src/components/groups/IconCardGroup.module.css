@@ -1,0 +1,33 @@
+.icon-card-container {
+    background: #F3F6F9;
+}
+
+.icon-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .5rem;
+    padding: 1rem 0;
+}
+
+@media (min-width: 481px) {
+    .icon-cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.75rem;
+        padding: 1.75rem 0;
+    }
+}
+
+@media (min-width: 769px) {
+    .icon-cards {
+        padding: 2.5rem;
+        grid-gap: 2.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .icon-cards {
+        grid-template-columns: repeat(4, 1fr);
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

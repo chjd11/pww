@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d4b428fc.css",
+    "main.js": "/static/js/main.2f3bbe83.js",
+    "static/media/shutterstock_42474535.jpg": "/static/media/shutterstock_42474535.ee7ba0c4809196d5aa30.jpg",
+    "static/media/RFA Logo Final.png": "/static/media/RFA Logo Final.9acbebdc43c6d30ad8b2.png",
+    "static/media/Group 262.png": "/static/media/Group 262.d36a2d473054af444498.png",
+    "static/media/Geography-Icon.svg": "/static/media/Geography-Icon.ea0756a839c35674339a1c40ad4fe67e.svg",
+    "static/media/Legislative-Icon.svg": "/static/media/Legislative-Icon.abd9561a56bf31746d4fa1183f6a4e08.svg",
+    "static/media/Data-Research-Icon.svg": "/static/media/Data-Research-Icon.adfbc6d6b9cb76dccb2a33f109865122.svg",
+    "static/media/Programs-Icon.svg": "/static/media/Programs-Icon.b9271770be8e97f54516bd23b3368cdf.svg",
+    "index.html": "/index.html",
+    "main.d4b428fc.css.map": "/static/css/main.d4b428fc.css.map",
+    "main.2f3bbe83.js.map": "/static/js/main.2f3bbe83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4b428fc.css",
+    "static/js/main.2f3bbe83.js"
+  ]
+}

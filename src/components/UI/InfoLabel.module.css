@@ -1,0 +1,21 @@
+.info-label {
+    display: inline-block;
+    background: #757575;
+    color: #FFF;
+    font-size: .7rem;
+    padding: .25em .4em;
+    border-radius: 2px;
+}
+
+.bg-red {
+    background: #E9261D;
+}
+
+.bg-gold {
+    background: #D2B859;
+    color: inherit;
+}
+
+.h-margin {
+    margin: 0 1em;
+}

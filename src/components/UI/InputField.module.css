@@ -1,0 +1,15 @@
+.form-text {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: .5em;
+    font-size: 1rem;
+}
+
+.form-text:focus {
+    outline: none;
+    border-color: #3068AD;
+}
+
+.search-site {
+    color: red;
+}

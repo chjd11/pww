@@ -1,0 +1,11 @@
+.screen-container {
+    max-width: 1280px;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+@media (min-width: 481px) {
+    .screen-container {
+        padding: 0 2rem;
+    }
+}

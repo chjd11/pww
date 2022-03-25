@@ -1,0 +1,41 @@
+.icon-card {
+    box-shadow: 0 0 4px 1px #ccc;
+    padding: 1rem;
+    background: white;
+    font-weight: bold;
+    color: #1B3A61;
+    letter-spacing: 1px;
+    display: block;
+    text-decoration: none;
+    border: 2px solid #FFF;
+    text-transform: uppercase;
+}
+
+.icon-card:hover {
+    border-color: #3068AD;
+}
+
+.icon-card img {
+    height: 1.5rem;
+    float: left;
+    margin-right: 1.25rem;
+}
+
+@media (min-width: 481px) {
+    .icon-card {
+        text-align: center;
+        padding: 2.5rem;
+    }    
+    .icon-card img {
+        width: 90px;
+        height: auto;
+        float: none;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .icon-card img {
+        width: 105px;
+    }
+}

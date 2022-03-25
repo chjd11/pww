@@ -1,0 +1,29 @@
+#main-footer {
+    background: #1b3a61;
+    color: #FFF;
+    padding: 2em 0 2.25rem;
+    text-align: center;
+}
+
+#footer-logo-with-text {
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+#footer-logo-with-text img {
+    height: 8rem;
+    margin-top: 2rem;  
+}
+
+@media (min-width: 769px) {
+    #main-footer {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1500px) {
+    /* footer slightly wider than main content on large screens */
+    #main-footer > div:first-child > div:first-child {
+        margin: 0 -40px 0 -20px;
+    }
+}

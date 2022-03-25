@@ -1,0 +1,40 @@
+.link1 {
+    color: #0074c1;
+}
+
+.link2 {
+    color: #225089;
+}
+
+.link3 {
+    color: #FFF;
+}
+
+.link4 {
+    color: #333;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.no-underline:hover {
+    text-decoration: underline;
+}
+
+.size0 {
+    font-size: .875rem;
+}
+
+.size2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+}

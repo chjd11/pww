@@ -1,0 +1,28 @@
+.style2, .style3 {
+    font-size: 1.875rem;
+    color: #1B3A61;
+    font-weight: 600;
+}
+
+.style2::after {
+    display: block;
+    width: 1.75em;
+    height: 3px;
+    background: #8C6910;
+    content: "";
+    margin-top: .5em;
+}
+
+.style3 {
+    border-bottom: 8px solid #1B3A61;
+    padding-bottom: .8rem;
+    text-transform: uppercase;
+}
+
+.small {
+    font-size: 1.125rem;
+}
+
+.bottom-margin {
+    margin-bottom: .7em;
+}

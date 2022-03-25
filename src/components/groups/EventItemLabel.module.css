@@ -1,0 +1,10 @@
+.event-label {
+    display: flex;
+    align-items: top;
+    margin-top: .4rem;
+}
+
+.event-label svg {
+    margin: .25rem .5rem 0 0;
+    opacity: .75;
+}

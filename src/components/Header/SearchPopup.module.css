@@ -1,0 +1,20 @@
+#search-frm {
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    grid-gap: 1rem;
+}
+
+#search-popup {
+    position: absolute;
+    right: 0;
+    margin-top: -.5rem;
+    background: #0074C1;
+    padding: 1rem;
+    z-index: 1;
+}
+
+@media (min-width: 769px) {
+    #search-frm {
+        grid-template-columns: 20rem 1fr;
+    }
+}
